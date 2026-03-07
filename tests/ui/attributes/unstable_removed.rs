@@ -3,6 +3,9 @@
 #![feature(old_feature)]
 //~^ ERROR: feature `old_feature` has been removed
 
+#![feature(concat_idents)]
+//~^ ERROR: feature `concat_idents` has been removed
+
 #![unstable_removed(
 //~^ ERROR: stability attributes may not be used outside of the standard library
     feature = "old_feature",
